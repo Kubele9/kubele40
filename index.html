@@ -215,7 +215,7 @@
   const EVENT_END   = new Date("2026-06-21T01:00:00+02:00");
   const DEADLINE = new Date("2026-06-01T23:59:59+02:00");
   const STORAGE_KEY = "kubele40_prihlasky_2026";
-  const SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwnckp8jCQyp7ewLBr8fWJvRzXlfGFfbxjXBbai1Dxk-ZIcuZsVQU2D7Likznh0l5tJ/exec"; // ← až vytvoříš (níže v návodu)
+  const SHEETS_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyI76i3wfBA-0glpjgqemNGvlcAVbPorn8auWIdRmP7M1L-JhyI9UmTARrl52YcpgzN/exec"; // ← až vytvoříš (níže v návodu)
 
   // Dynamický odkaz na mapu
   const mapQ = encodeURIComponent(EVENT_LOCATION);
@@ -278,7 +278,6 @@
       'END:VEVENT',
       'END:VCALENDAR' 
     ].join('
-
 ');
     return ics;
   }
